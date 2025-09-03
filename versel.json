@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "rail_defect_detection.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "rail_defect_detection.py" }
+  ]
+}
